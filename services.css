@@ -1,0 +1,112 @@
+.services {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.services .head {
+    width: 100%;
+    height: 20%;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services .head h6 {
+    color: #0250FF;
+    font-size: 12px;
+}
+
+.services .head .spans {
+    display: flex;
+    align-items: center;
+}
+
+.services .head .spans span {
+    width: 30px;
+    height: 2.5px;
+    background: #0250FF;
+}
+
+.services .head .spans span:nth-child(2) {
+    width: 5px;
+    margin-left: 5px;
+}
+
+.services .head .spans span:nth-child(3) {
+    width: 5px;
+    margin-left: 5px;
+}
+
+.services .cards {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services .cards .card {
+    width: 230px;
+    height: 180px;
+    background: #fff;
+    box-shadow: 0px 0px 8px gray;
+    border-radius: 10px;
+    padding: 15px 13px;
+    margin: 10px 10px;
+    transition: .3s linear;
+    /* overflow: hidden; */
+}
+
+.services .cards .card:hover {
+    background: #0250FF;
+    box-shadow: unset;
+}
+
+.services .cards .card i {
+    background: #0250FF;
+    padding: 10px 13px;
+    border-radius: 15px 15px 0px 15px;
+    font-size: 20px;
+    color: #fff;
+    transition: .3s linear;
+}
+
+.services .cards .card:hover i{
+    color: #0250FF;
+    background: #fff;
+}
+
+.services .cards .card:hover h6 {
+    color: #fff;
+}
+
+.services .cards .card:hover p {
+    color: #fff;
+}
+
+.services .cards .card h6 {
+    margin: 20px 0px 10px 0px;
+    color: #000;
+    font-size: 14px;
+    transition: .3s linear;
+}
+
+.services .cards .card p {
+    color: #000;
+    font-size: 10px;
+    transition: .3s linear;
+}
+
+
+
+
+
+
+
+

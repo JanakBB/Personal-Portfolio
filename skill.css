@@ -1,0 +1,245 @@
+.skill_bx {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+.skill_bx .skill_img_bx, .skill_cont_bx {
+    width: 50%;
+    height: 100%;
+    
+}
+
+.skill_bx .skill_img_bx {
+    display: flex;
+    flex-direction: column;
+}
+
+.empty {
+    height: 150px;
+    background-color: green;
+}
+
+.skill_bx .skill_img_bx .padding_image {
+    width: 100%;
+    height: 100%;
+    background-image: url(Images/Black\ Aesthetic\ Photo\ Phone\ Camera\ Film\ Frame\ Instagram\ Story\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: top;
+    
+}
+
+.skill_bx .skill_cont_bx h6 {
+    color: #0250FF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.skill_bx .skill_cont_bx h2 {
+    position: relative;
+    font-family: 'Robato', sans-serif;
+    font-weight: 600;
+}
+
+.skill_bx .skill_cont_bx h2 span {
+    width: 30px;
+    height: 3px;
+    background: #0250FF;
+    position: absolute;
+    bottom: -10px;
+    left: 0%;
+    border-radius: 20px;
+}
+
+.skill_bx .skill_cont_bx h2 span:nth-child(2) {
+    width: 5px;
+    height: 3px;
+    background: #0250FF;
+    position: absolute;
+    bottom: -10px;
+    left: 7.5%;
+    border-radius: 20px;
+}
+
+.skill_bx .skill_cont_bx h2 span:nth-child(3) {
+    width: 5px;
+    height: 3px;
+    background: #0250FF;
+    position: absolute;
+    bottom: -10px;
+    left: 9.5%;
+    border-radius: 20px;
+}
+
+.skill_bx .skill_cont_bx p {
+    font-size: 11px;
+    word-break: break-all;
+    margin-top: 25px;
+}
+
+
+.skill_bx .skill_cont_bx .skill_progress_bar {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box {
+    margin-top: 15px;
+} 
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box .lable {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box .lable h6 {
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box .lable h6 span {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box h5 {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    margin-top: 2px;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box h5::before {
+    content: '';
+    position: absolute;
+    background: rgb(184, 184, 184, .5);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box h5::after {
+    content: '';
+    position: absolute;
+    background: #0250FF;
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box:nth-child(1) .ani_jss::after {
+    animation: ani_js11 3s linear forwards;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box:nth-child(2) .ani_jss::after {
+    animation: ani_js12 3s linear forwards;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box:nth-child(3) .ani_jss::after {
+    animation: ani_js13 3s linear forwards;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box:nth-child(4) .ani_jss::after {
+    animation: ani_js14 3s linear forwards;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box:nth-child(1) .ani_jsss::after {
+    animation: ani_js21 3s linear forwards;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box:nth-child(2) .ani_jsss::after {
+    animation: ani_js22 3s linear forwards;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box:nth-child(3) .ani_jsss::after {
+    animation: ani_js23 3s linear forwards;
+}
+
+.skill_bx .skill_cont_bx .skill_progress_bar .skill_progress_bar_box:nth-child(4) .ani_jsss::after {
+    animation: ani_js24 3s linear forwards;
+}
+
+@keyframes ani_js11 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes ani_js12 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 78%;
+    }
+}
+
+@keyframes ani_js13 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes ani_js14 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+
+@keyframes ani_js21 {
+    0% {
+        width: 85%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes ani_js22 {
+    0% {
+        width: 78%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes ani_js23 {
+    0% {
+        width: 90%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes ani_js24 {
+    0% {
+        width: 95%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+
+
+

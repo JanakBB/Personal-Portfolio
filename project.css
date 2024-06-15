@@ -1,0 +1,94 @@
+.project {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-top: 60px;
+}
+
+.project .head {
+    width: 100%;
+    height: 20%;
+    margin-top: 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.project .head .l_bx {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.project .head .l_bx h6 {
+    color: #0250FF;
+    font-size: 12px;
+}
+
+.project .head .l_bx .spans {
+    display: flex;
+    align-items: center;
+}
+
+.project .head .l_bx .spans span {
+    width: 30px;
+    height: 2.5px;
+    background: #0250FF;
+}
+
+.project .head .l_bx .spans span:nth-child(2) {
+    width: 5px;
+    margin-left: 5px;
+}
+
+.project .head .l_bx .spans span:nth-child(3) {
+    width: 5px;
+    margin-left: 5px;
+}
+
+.project .head .r_bx {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.project .head .r_bx i {
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.project .cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.project .cards::-webkit-scrollbar {
+    display: none;
+}
+
+.project .cards .card {
+    min-width: 333px;
+    height: 230px;
+    margin-right: 5px;
+}
+
+/* .project .cards .card:nth-child(1) {
+    margin-right: 0px;
+} */
+
+.project .cards .card img {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.project .cards .card .cont p {
+    font-size: 12px;
+}
